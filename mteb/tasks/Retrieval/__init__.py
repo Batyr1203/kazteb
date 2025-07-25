@@ -122,6 +122,7 @@ from .jpn.NLPJournalAbsIntroRetrieval import *
 from .jpn.NLPJournalTitleAbsRetrieval import *
 from .jpn.NLPJournalTitleIntroRetrieval import *
 from .kat.GeorgianFAQRetrieval import *
+from .kaz.KazQADRetrieval import *
 from .kor.AutoRAGRetrieval import *
 from .kor.KoStrategyQA import *
 from .multilingual.BelebeleRetrieval import *

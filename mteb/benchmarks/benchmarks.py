@@ -250,6 +250,28 @@ MTEB_MAIN_RU = Benchmark(
 """,
 )
 
+MTEB_KAZ = Benchmark(
+    name="MTEB(kaz, v1)",
+    display_name="Kazakh",
+    icon="https://github.com/lipis/flag-icons/raw/260c91531be024944c6514130c5defb2ebb02b7d/flags/4x3/kz.svg",
+    tasks=get_tasks(
+        languages=["kaz"],
+        tasks=[
+            # Classification
+            "KazSandraScoreClassification",
+            "KazSandraPolarityClassification",
+            # Retrieval
+            "KazQADRetrieval",
+            # BitextMining
+            "KazParcBitextMining",
+        ],
+    ),
+    description="A Kazakh language extension for the Massive Text Embedding Benchmark featuring tasks for sentiment analysis, question answering retrieval, and bitext mining in the Kazakh language.",
+    reference="https://aclanthology.org/2023.eacl-main.148/",
+    citation=r"""""",
+)
+
+
 MTEB_RETRIEVAL_WITH_INSTRUCTIONS = Benchmark(
     name="FollowIR",
     display_name="Instruction Following",

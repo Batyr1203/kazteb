@@ -80,6 +80,8 @@ from .jav.JavaneseIMDBClassification import *
 from .jpn.JapaneseSentimentClassification import *
 from .jpn.WRIMEClassification import *
 from .kan.KannadaNewsClassification import *
+from .kaz.KazSandraPolarityClassification import *
+from .kaz.KazSandraScoreClassification import *
 from .kor.KlueTC import *
 from .kor.KorFin import *
 from .kor.KorHateClassification import *

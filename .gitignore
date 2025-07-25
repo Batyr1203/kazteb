@@ -1,5 +1,7 @@
 .DS_Store
 .idea/
+.vscode
+.github
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -137,6 +139,12 @@ error_logs.txt
 # tests
 tests/results
 tmp.py
+
+# custom tests
+test_results/
+evaluate.py
+merge_results.py
+merged_results.json
 
 # sandbox
 sb.ipynb

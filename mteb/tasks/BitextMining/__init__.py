@@ -4,6 +4,7 @@ from .dan.BornholmskBitextMining import *
 from .eng.PubChemSMILESBitextMining import *
 from .fas.FaMTEBSummaryRetrieval import *
 from .kat.TbilisiCityHallBitextMining import *
+from .kaz.KazParcBitextMining import *
 from .multilingual.BibleNLPBitextMining import *
 from .multilingual.BUCCBitextMining import *
 from .multilingual.BUCCBitextMiningFast import *
